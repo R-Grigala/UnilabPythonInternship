@@ -16,10 +16,10 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        {{ create_navlink('main.index', 'Home') }}
+                        {{ create_navlink('main.index', 'მთავარი') }}
                     </li>
                     <li class="nav-item">
-                        {{ create_navlink('main.highscores', 'HighScores') }}
+                        {{ create_navlink('main.highscores', 'უმაღლესი შეფასება') }}
                     </li>
                     {% if current_user.is_authenticated and current_user.role.name != "member" %}
                         <li class="nav-item">
@@ -28,14 +28,14 @@
                     {% endif %}
                     {% if current_user.is_authenticated %}
                         <li class="nav-item">
-                            {{ create_navlink('auth.logout', 'Logout') }}
+                            {{ create_navlink('auth.logout', 'გასვლა') }}
                         </li>
                     {% else %}
                         <li class="nav-item">
-                            {{ create_navlink('auth.login', 'Login') }}
+                            {{ create_navlink('auth.login', 'შესვლა') }}
                         </li>
                         <li class="nav-item">
-                            {{ create_navlink('auth.register', 'Register') }}
+                            {{ create_navlink('auth.register', 'რეგისტრაცია') }}
                         </li>
                     {% endif %}
                 </ul>

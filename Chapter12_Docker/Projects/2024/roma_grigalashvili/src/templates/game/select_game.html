@@ -1,13 +1,13 @@
 {% extends "layouts/base.html" %}
 
 {% block title %}
-    Select Quiz
+  სწრაფი ვიქტორინა - ვიქტორინები
 {% endblock %}
 
 {% block body %}
 <div class="container">
   <div class="d-flex justify-content-center align-items-center pt-5">
-    <h1>Select a Quiz</h1>
+    <h1>აირჩიეთ სასურველი ვიქტორინა</h1>
   </div>
     <div id="carouselExampleInterval" style="height: 30vh;"  class="carousel slide text-center" data-bs-ride="carousel">
 
@@ -34,7 +34,7 @@
                     <div class="text-center">
                       <form method="POST" action="{{ url_for('game.select_game') }}">
                         <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
-                        <button type="submit" data-mdb-ripple-init class="btn btn-primary">Start Quiz</button>
+                        <button type="submit" data-mdb-ripple-init class="btn btn-primary">დაწყება</button>
                       </form>
                     </div>
 

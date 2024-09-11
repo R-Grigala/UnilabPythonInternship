@@ -1,25 +1,28 @@
 {% extends "layouts/base.html" %}
 
 {% block title %}
-    Quick Quiz - Main
+    სწრაფი ვიქტორინა - მთავარი
 {% endblock %}
 
 {% block body %}
 
     <div class="d-flex flex-column align-items-center justify-content-center pt-5">
-        <h1>Quick Quiz</h1>
+        <h1>სწრაფი ვიქტორინა</h1>
         
-        <p>მომხმარებლებს შეუძლიათ დაწერონ ქვიზები სხვადასხვა საგნებში და მიიღონ ქულები,
-            <br>ქულების დაგროვების შემდეგ კი მოხვდებიან საიტის მთავარ ცხრილში.
-            <br>ქვიზის დაწერა შესაძლებელია სხვადასხვა საგნებში:
+        <p>მომხმარებლებს შეუძლიათ დაწერონ სწრაფი ვიქტორინები სხვადასხვა საგნებში და მიიღონ ქულები,
+            <br>ქულების დაგროვების შემდეგ კი მოხვდებიან საიტის "უმაღლესი შეფასება"-ის ცხრილში.
+            <br>"უმაღლესი შეფასება"-ის ცხრილში ასევე მოცემულია იუზერის დახარჯული დრო ვიქტორინის შესასრულებლად.
+            <br>ვიქტორინის დაწერა შესაძლებელია სხვადასხვა საგნებში:
         </p>
             <ul>
                 <li>მათემატიკა</li>
                 <li>ისტორია</li>
                 <li>გეოგრაფია</li>
+                <li>პროგრამირება</li>
+                <li>ფიზიკა</li>
             </ul>
-        <a class="cus_btn" href="{{ url_for('main.highscores') }}">High Scores</a>
-        <a class="cus_btn" href="{{ url_for('game.select_game') }}">Play Game</a>
+        <a class="cus_btn" href="{{ url_for('main.highscores') }}">უმაღლესი შეფასება</a>
+        <a class="cus_btn" href="{{ url_for('game.select_game') }}">ვიქტორინები</a>
     </div>
 
 {% endblock %}

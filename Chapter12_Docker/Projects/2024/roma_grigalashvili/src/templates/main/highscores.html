@@ -1,24 +1,24 @@
 {% extends "layouts/base.html" %}
 
 {% block title %}
-    Quick Quiz - HighScores
+  სწრაფი ვიქტორინა - უმაღლესი შეფასება
 {% endblock %}
 
 {% block body %}
 <div>
   <div class="d-flex justify-content-center align-items-center pt-5">
-    <h1>High Scores</h1>
+    <h1>უმაღლესი შეფასება</h1>
   </div>
   <div class="text-center mb-3">TOP 5 მომხმარებლები რომელთაც ყველაზე მაღალი ქულა აქვთ:</div>
   <table class="table table-striped">
     <thead class="table-dark">
       <tr>
         <th scope="col">#</th>
-        <th scope="col">Username</th>
-        <th scope="col">Email</th>
-        <th scope="col">Quiz</th>
-        <th scope="col">Time</th>
-        <th scope="col">Score</th>
+        <th scope="col">მომხმარებელი</th>
+        <th scope="col">ელ.ფოსტა</th>
+        <th scope="col">ვიქტორინა</th>
+        <th scope="col">დრო</th>
+        <th scope="col">ქულა</th>
       </tr>
     </thead>
     <tbody>
@@ -35,7 +35,7 @@
     </tbody>
   </table>
   <div class="d-flex justify-content-center align-items-center">
-    <a class="btn btn-primary" href="{{ url_for('main.index') }}">Go To Home Page</a>
+    <a class="btn btn-primary" href="{{ url_for('main.index') }}">მთავარი გვერდი</a>
   </div>
 </div>
 

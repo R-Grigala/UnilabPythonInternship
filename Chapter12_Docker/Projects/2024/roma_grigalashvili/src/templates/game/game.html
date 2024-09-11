@@ -2,7 +2,7 @@
 {% extends "layouts/base.html" %}
 
 {% block title %}
-    Quick Quiz - Game
+    სწრაფი ვიქტორინა - ვიქტორინა
 {% endblock %}
 
 {% block body %}
@@ -11,7 +11,7 @@
     <div class="d-flex justify-content-between">
         <div class="container">
             <p class="align-items-center fs-4">
-                Question
+                შეკითხვა
             </p>
             <div class="progress h-25 mt-4">
                 <div class="progress-bar progress-bar-striped progress-bar-animated w-{{progress // 25 * 25}} me-2" >Already Passed : {{progress}} %</div>
@@ -19,7 +19,7 @@
         </div>
         <div>
             <p class="align-items-center fs-4">
-                Score
+                ქულა
             </p>
             <h1 class="align-items-center text-primary">
                 {{score}}
@@ -44,7 +44,7 @@
                 {% endfor %}
 
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            <button type="submit" class="btn btn-primary mt-3">ეგ არი!</button>
         </form>
     </div>
 </div>
