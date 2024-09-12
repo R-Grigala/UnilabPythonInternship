@@ -19,7 +19,7 @@ def populate_db():
     questions_csv_file_path = path.join(Config.BASE_DIRECTORY, "questions.csv")
     quizes_csv_file_path = path.join(Config.BASE_DIRECTORY, "quizes.csv")
     click.echo("Creating Category")
-    categories = ["Geography", "Math", "History", "Programming", "Physics"]
+    categories = ["Geography", "Math", "History", "Programming", "Physics", "Chemistry"]
     for category in categories:
         new_category = Category(category=category)
         new_category.create()

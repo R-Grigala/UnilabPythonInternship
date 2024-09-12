@@ -1,6 +1,7 @@
 quiz_name,quiz_text,user_id,category_id
-Quiz in Geography,"Some quick example text to Quiz in Geography",1,1
-Quiz in Programming,"Some quick example text to Quiz in Programming",1,4
-Quiz in Math,"Some quick example text to Quiz in Math",1,2
-Quiz in History,"Some quick example text to Quiz in History",1,3
-Quiz in Physics,"Some quick example text to Quiz in Physics",1,5
+ვიქტორინა გეოგრაფიაში,"ვიქტორინაში მონაწილეობით შეამოწმებთ თქვენს ცოდნას გლობალური გეოგრაფიის სფეროში.",1,1
+Quiz in Programming,"Test your knowledge of software development concepts and problem-solving skills.",1,4
+ვიქტორინა მათემატიკაში,"აქ შეგიძლიათ შეამოწმოთ თქვენი ცოდნა ციფრების, ფორმულებისა და მათემატიკური პრობლემების გადაჭრაში.",1,2
+ვიქტორინა ისტორიაში,"ამ ვიქტორინით შეგიძლიათ გამოსცადოთ თქვენი ცოდნა ისტორიული ფაქტების და მოვლენების შესახებ.",1,3
+ვიქტორინა ფიზიკაში,"ვიქტორინა საშუალებას გაძლევთ გამოსცადოთ თქვენი ცოდნა ფიზიკის კანონებისა და ფენომენების შესახებ.",1,5
+ვიქტორინა ქიმიაში,"ამ ვიქტორინით შეგიძლიათ შეამოწმოთ თქვენი ცოდნა ქიმიის კანონებისა და ელემენტების შესახებ.",1,6
