@@ -9,7 +9,7 @@
   <div class="d-flex justify-content-center align-items-center pt-5">
     <h1>უმაღლესი შეფასება</h1>
   </div>
-  <div class="text-center mb-3">TOP 5 მომხმარებლები რომელთაც ყველაზე მაღალი ქულა აქვთ:</div>
+  <div class="text-center mb-3">TOP 2 მომხმარებლები რომელთაც ყველაზე მაღალი ქულა აქვთ თითოეულ ვიქტორინაში:</div>
   <table class="table table-striped">
     <thead class="table-dark">
       <tr>
@@ -25,9 +25,9 @@
       {% for score in top_scores %}
         <tr>
           <th scope="row">{{ loop.index }}</th>
-          <td>{{ score.user.username }}</td>
-          <td>{{ score.user.email }}</td>
-          <td>{{ score.quiz.quiz_name }}</td>
+          <td>{{ score.username }}</td>
+          <td>{{ score.email }}</td>
+          <td>{{ score.quiz_name }}</td>
           <td>{{ score.formatted_time }}</td>
           <td>{{ score.score }}</td>
         </tr>

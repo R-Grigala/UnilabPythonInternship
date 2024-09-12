@@ -1,12 +1,12 @@
 /*  Img Logo  */
 
 .circle-image {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    background-color: #00f7ff;
+    background-color: #7efbff;
 }
 .circle-image img {
     width: 100%;
